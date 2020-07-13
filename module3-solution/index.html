@@ -8,18 +8,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href=".\css\styles.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <title>Module3Assignment</title>
   </head>
   <body>
     <nav class="navbar">
-      <a class="navbar-brand" href="#">Food,LLC</a>
-      <div id="navBarNav">
-        <ul>
-          <li><a href="#chicken">Chicken</a></li>
-          <li><a href="#beef">Beef</a></li>
-          <li><a href="#sushi">Sushi</a></li>
-        </ul>
+      <div class="container p-0">
+        <a class="navbar-brand p-2" href="#">Food,LLC</a>
+        <button class="navbar-toggler d-md-none " type="button" data-toggle="collapse" data-target="#navbarNav">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="25" height="25"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav w-100  d-md-none">
+            <li class="nav-item  p-2 "><a href="#chicken">Chicken</a></li>
+            <li class="nav-item  p-2 "><a href="#beef">Beef</a></li>
+            <li class="nav-item  p-2 "><a href="#sushi">Sushi</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -27,45 +32,54 @@
     <h1 class="ml-auto">Our Menu</h1>
 
 
-      <div class="container">
+      <div class="container w-100">
         <div class="row">
-          <section class="col-md-4 col-sm-6 col-xs-12" id="chicken">
-            <h2>Chicken</h2>
-            <div>
-            Et anim sunt sint non aliqua. Labore sint et exercitation aute incididunt qui quis in ipsum labore ea nisi. Laborum minim cillum nulla ut fugiat ipsum anim voluptate sit nostrud magna excepteur officia. Veniam fugiat qui ea aute fugiat pariatur enim voluptate ex minim aute.
-            Dolore ullamco quis sunt aliqua labore. Ut excepteur reprehenderit occaecat ipsum ad aliqua laborum ea reprehenderit sint et ut esse. Ut dolor cillum ut elit ea deserunt voluptate ad nostrud cupidatat cupidatat culpa ad quis. Ea culpa adipisicing ea aliquip non sint. Cupidatat fugiat duis ipsum duis anim tempor cillum. Nulla ad eiusmod do et eu.
+          <section class="col-md-4 col-sm-6 col-xs-12 p-0" id="chicken">
+              <div class="inner_content p-0 m-1">
+                <h2>Chicken</h2>
+                <div>
+                  Dolor voluptate consectetur eiusmod nulla pariatur commodo esse. Do enim commodo mollit duis fugiat laboris. Excepteur non eu nulla ex amet excepteur.
 
-            Qui aliquip aliquip duis commodo non aliquip cupidatat amet ullamco aliquip elit minim sit. Voluptate irure culpa amet labore aute ullamco sit ex. Tempor sunt sit sunt anim proident excepteur do ullamco consequat sit consectetur.
+                  Aliquip reprehenderit sit sit nostrud veniam commodo ea mollit ipsum ex amet consectetur ea fugiat. Ad dolore duis est labore exercitation adipisicing minim est aute nulla irure elit. Ea cillum deserunt culpa tempor reprehenderit do eiusmod aute.
 
-            Aliqua exercitation est esse ad sunt. Do id sunt nostrud Lorem ullamco ipsum ut id magna do excepteur id pariatur pariatur. Mollit esse Lorem officia enim. Qui consequat cupidatat velit ut Lorem elit irure culpa. Pariatur dolor elit ad et pariatur enim cupidatat sit elit ut. Sit deserunt do commodo ullamco tempor.
+                  Et dolore adipisicing irure consequat. Tempor commodo ut amet qui eiusmod ut culpa culpa culpa duis in consectetur nisi laboris. Reprehenderit eiusmod fugiat ullamco ut. Sint id anim ipsum dolor sunt mollit.
 
-            Aliqua ullamco magna minim non exercitation ex in pariatur. Enim minim sit laboris consectetur. Reprehenderit cupidatat nostrud quis occaecat dolore voluptate. Eu enim cillum ea magna elit esse dolor adipisicing aute eiusmod. Nisi nostrud irure incididunt cupidatat nostrud deserunt voluptate dolore velit nulla dolor. In officia id exercitation dolore qui labore velit exercitation qui. Incididunt laboris est consectetur enim.
+                  Tempor cupidatat dolore duis minim consequat elit dolor consequat consectetur tempor officia occaecat mollit. Adipisicing amet qui esse laboris aute mollit esse officia mollit sunt reprehenderit pariatur consequat consequat. Do officia laboris tempor occaecat sint sint ad. Dolore adipisicing do Lorem Lorem ea sint voluptate velit nisi.
+                </div>
+              </div>
+          </section>
+
+
+          <section class="col-md-4 col-sm-6 col-xs-12 p-0" id="beef">
+            <div class="inner_content p-0 m-1">
+              <h2>Beef</h2>
+              <div>
+                Dolor voluptate consectetur eiusmod nulla pariatur commodo esse. Do enim commodo mollit duis fugiat laboris. Excepteur non eu nulla ex amet excepteur.
+
+                Aliquip reprehenderit sit sit nostrud veniam commodo ea mollit ipsum ex amet consectetur ea fugiat. Ad dolore duis est labore exercitation adipisicing minim est aute nulla irure elit. Ea cillum deserunt culpa tempor reprehenderit do eiusmod aute.
+
+                Et dolore adipisicing irure consequat. Tempor commodo ut amet qui eiusmod ut culpa culpa culpa duis in consectetur nisi laboris. Reprehenderit eiusmod fugiat ullamco ut. Sint id anim ipsum dolor sunt mollit.
+
+                Tempor cupidatat dolore duis minim consequat elit dolor consequat consectetur tempor officia occaecat mollit. Adipisicing amet qui esse laboris aute mollit esse officia mollit sunt reprehenderit pariatur consequat consequat. Do officia laboris tempor occaecat sint sint ad. Dolore adipisicing do Lorem Lorem ea sint voluptate velit nisi.
+            
+              </div>
             </div>
           </section>
-          <section class="col-md-4 col-sm-6 col-xs-12" id="beef">
-            <h2>Beef</h2>
-            <div>
-            Et anim sunt sint non aliqua. Labore sint et exercitation aute incididunt qui quis in ipsum labore ea nisi. Laborum minim cillum nulla ut fugiat ipsum anim voluptate sit nostrud magna excepteur officia. Veniam fugiat qui ea aute fugiat pariatur enim voluptate ex minim aute.
-            Dolore ullamco quis sunt aliqua labore. Ut excepteur reprehenderit occaecat ipsum ad aliqua laborum ea reprehenderit sint et ut esse. Ut dolor cillum ut elit ea deserunt voluptate ad nostrud cupidatat cupidatat culpa ad quis. Ea culpa adipisicing ea aliquip non sint. Cupidatat fugiat duis ipsum duis anim tempor cillum. Nulla ad eiusmod do et eu.
 
-            Qui aliquip aliquip duis commodo non aliquip cupidatat amet ullamco aliquip elit minim sit. Voluptate irure culpa amet labore aute ullamco sit ex. Tempor sunt sit sunt anim proident excepteur do ullamco consequat sit consectetur.
 
-            Aliqua exercitation est esse ad sunt. Do id sunt nostrud Lorem ullamco ipsum ut id magna do excepteur id pariatur pariatur. Mollit esse Lorem officia enim. Qui consequat cupidatat velit ut Lorem elit irure culpa. Pariatur dolor elit ad et pariatur enim cupidatat sit elit ut. Sit deserunt do commodo ullamco tempor.
+          <section class="col-md-4 col-sm-12 col-xs-12 p-0" id="sushi">
+            <div class="inner_content p-0 m-1">
+              <h2>Sushi</h2>
+              <div>
 
-            Aliqua ullamco magna minim non exercitation ex in pariatur. Enim minim sit laboris consectetur. Reprehenderit cupidatat nostrud quis occaecat dolore voluptate. Eu enim cillum ea magna elit esse dolor adipisicing aute eiusmod. Nisi nostrud irure incididunt cupidatat nostrud deserunt voluptate dolore velit nulla dolor. In officia id exercitation dolore qui labore velit exercitation qui. Incididunt laboris est consectetur enim.
-            </div>
-          </section>
-          <section class="col-md-4 col-sm-12 col-xs-12" id="sushi">
-            <h2>Sushi</h2>
-            <div>
-            Et anim sunt sint non aliqua. Labore sint et exercitation aute incididunt qui quis in ipsum labore ea nisi. Laborum minim cillum nulla ut fugiat ipsum anim voluptate sit nostrud magna excepteur officia. Veniam fugiat qui ea aute fugiat pariatur enim voluptate ex minim aute.
-            Dolore ullamco quis sunt aliqua labore. Ut excepteur reprehenderit occaecat ipsum ad aliqua laborum ea reprehenderit sint et ut esse. Ut dolor cillum ut elit ea deserunt voluptate ad nostrud cupidatat cupidatat culpa ad quis. Ea culpa adipisicing ea aliquip non sint. Cupidatat fugiat duis ipsum duis anim tempor cillum. Nulla ad eiusmod do et eu.
+                Dolor voluptate consectetur eiusmod nulla pariatur commodo esse. Do enim commodo mollit duis fugiat laboris. Excepteur non eu nulla ex amet excepteur.
 
-            Qui aliquip aliquip duis commodo non aliquip cupidatat amet ullamco aliquip elit minim sit. Voluptate irure culpa amet labore aute ullamco sit ex. Tempor sunt sit sunt anim proident excepteur do ullamco consequat sit consectetur.
+                Aliquip reprehenderit sit sit nostrud veniam commodo ea mollit ipsum ex amet consectetur ea fugiat. Ad dolore duis est labore exercitation adipisicing minim est aute nulla irure elit. Ea cillum deserunt culpa tempor reprehenderit do eiusmod aute.
 
-            Aliqua exercitation est esse ad sunt. Do id sunt nostrud Lorem ullamco ipsum ut id magna do excepteur id pariatur pariatur. Mollit esse Lorem officia enim. Qui consequat cupidatat velit ut Lorem elit irure culpa. Pariatur dolor elit ad et pariatur enim cupidatat sit elit ut. Sit deserunt do commodo ullamco tempor.
+                Et dolore adipisicing irure consequat. Tempor commodo ut amet qui eiusmod ut culpa culpa culpa duis in consectetur nisi laboris. Reprehenderit eiusmod fugiat ullamco ut. Sint id anim ipsum dolor sunt mollit.
 
-            Aliqua ullamco magna minim non exercitation ex in pariatur. Enim minim sit laboris consectetur. Reprehenderit cupidatat nostrud quis occaecat dolore voluptate. Eu enim cillum ea magna elit esse dolor adipisicing aute eiusmod. Nisi nostrud irure incididunt cupidatat nostrud deserunt voluptate dolore velit nulla dolor. In officia id exercitation dolore qui labore velit exercitation qui. Incididunt laboris est consectetur enim.
+                Tempor cupidatat dolore duis minim consequat elit dolor consequat consectetur tempor officia occaecat mollit. Adipisicing amet qui esse laboris aute mollit esse officia mollit sunt reprehenderit pariatur consequat consequat. Do officia laboris tempor occaecat sint sint ad. Dolore adipisicing do Lorem Lorem ea sint voluptate velit nisi.
+              </div>
             </div>
           </section>
         </div>

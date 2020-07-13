@@ -1,3 +1,72 @@
 html{
     scroll-behavior: smooth;
 }
+
+body nav{
+    background-color: #b8f2e6;
+    color: black;
+}
+body nav .navbar-brand{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+
+    font-family: 'Arvo', serif;
+    font-weight:700 ;
+
+}
+body nav .collapse {
+    width: 100%;
+    
+    
+}
+body nav #navbarNav .navbar-nav li{
+    width: 100%;
+    border-bottom: 2px solid black;
+    background-color: #aed9e0;
+    text-align: center;
+}
+body nav #navbarNav .navbar-nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Arvo', serif;
+    margin: auto;
+    
+}
+
+
+body h1{
+    width:100vw;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Arvo', serif;
+    font-weight:700 ;
+}
+
+body .container .row section .inner_content{
+    border: 2px solid black;
+    text-align: justify;
+    position: relative;
+    padding: 0;
+    background-color: #faf3dd;
+}
+
+body .container .row section .inner_content h2{
+    border: 2px solid black;
+    border-left: 0;
+    border-top: 0;
+    display: inline-block;
+    margin: 0rem 1rem 1rem 0rem;
+    padding: 0.3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #ffa69e;
+    font-family: 'Arvo', serif;
+    font-weight: 700 ;
+}
+body .container .row section .inner_content div{
+    margin: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+}
