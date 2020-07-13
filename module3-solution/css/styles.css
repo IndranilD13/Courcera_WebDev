@@ -53,14 +53,14 @@ body .container .row section .inner_content{
 
 body .container .row section .inner_content h2{
     border: 2px solid black;
-    border-left: 0;
     border-top: 0;
     display: inline-block;
     margin: 0rem 1rem 1rem 0rem;
     padding: 0.3rem;
     position: relative;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translatex(-50%);
     background-color: #ffa69e;
     font-family: 'Arvo', serif;
     font-weight: 700 ;
